@@ -1,0 +1,33 @@
+name: proyecto_flutter
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  english_words: ^4.0.0
+  provider: ^6.0.0
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/img/
+  fonts:
+    - family: ProtestRiot
+      fonts:
+        - asset: assets/fonts/ProtestRiot-Regular.ttf
+    - family: PTSans
+      fonts:
+        - asset: assets/fonts/PT_Sans/PTSans-Bold.ttf
+        - asset: assets/fonts/PT_Sans/PTSans-BoldItalic.ttf
+        - asset: assets/fonts/PT_Sans/PTSans-Italic.ttf
+        - asset: assets/fonts/PT_Sans/PTSans-Regular.ttf
